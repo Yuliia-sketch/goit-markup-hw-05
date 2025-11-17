@@ -434,7 +434,8 @@ a{
     top: 50%;
     left: 50%;
     width: 408px;
-    min-height: 584px;
+    height: 80%;
+    max-height: 584px;
     transform: translate(-50%, -50%);
     border-radius: 4px;
     background-color: #fcfcfc;
@@ -503,6 +504,7 @@ a{
 }
 .field-icon{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
 }
