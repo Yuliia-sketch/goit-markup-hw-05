@@ -431,6 +431,7 @@ a{
 }
 .modal{
     position: absolute;
+    padding: 72px 24px 24px 24px;;
     top: 50%;
     left: 50%; 
     width: 408px;
@@ -455,13 +456,15 @@ a{
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+    cursor: pointer;  
 }
 .close-popup:hover,
 .close-popup:focus{
     background-color: #404BBF;
     border: none;
+}
+.icon-popup{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
 .text-popup{
     padding-top: 72px;
