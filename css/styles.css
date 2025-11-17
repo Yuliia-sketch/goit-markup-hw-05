@@ -430,12 +430,11 @@ a{
     transform: translate(-50%, -100%);
 }
 .modal{
-    position: relative;
+    position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; 
     width: 408px;
-    height: 80%;
-    max-height: 584px;
+    min-height: 584px;
     transform: translate(-50%, -50%);
     border-radius: 4px;
     background-color: #fcfcfc;
@@ -444,24 +443,25 @@ a{
     overflow: auto;
 }
 .close-popup{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     top: 24px;
     right: 24px;
-    background-color: #e7e9fc;
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    border: none;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
-.close-popup:hover{
+.close-popup:hover,
+.close-popup:focus{
     background-color: #404BBF;
+    border: none;
 }
 .text-popup{
     padding-top: 72px;
@@ -503,8 +503,9 @@ a{
     outline: none;
 }
 .field-icon{
-    position: absolute;
+    position: absolute; 
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
+    fill: transparent;
 }
