@@ -509,15 +509,16 @@ a{
     outline: none;
 }
 .field-icon{
-    position: absolute; 
-    top: 50%;
+    position: absolute;
     left: 16px;
-    transform: translateY(-50%);   
-}
-.field-icon:hover, 
-.field-icon:focus{
+    top: 50%;
+    transform: translateY(-50%);
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+} 
+.text-field:focus + .field-icon{
     fill: #4D5AE5;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    
 }
 .comment-field{
     width: 100%;
