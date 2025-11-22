@@ -408,11 +408,29 @@ a{
     background-color: #31d0aa;
 }
 .form-text{
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+.form-input{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+.form-mail{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: FFFFFF;
 }
 /*#endregion footer*/
 .backdrop{
