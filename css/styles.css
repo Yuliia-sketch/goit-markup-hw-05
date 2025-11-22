@@ -407,6 +407,9 @@ a{
 .footer-social-link:hover, .footer-social-link:focus{
     background-color: #31d0aa;
 }
+.form-container{
+    margin-left: 80px;
+}
 .form-text{
     margin-bottom: 16px;
     font-weight: 500;
@@ -433,6 +436,9 @@ a{
     background-color: transparent;
     color: #ffffff;
 }
+.form-input::placeholder {
+  color: #ffffff;
+}
 .subscribe-button{
     min-width: 165px;
     display: flex;
@@ -447,7 +453,7 @@ a{
     border: none;
     border-radius: 4px;
 }
-.utton-icon{
+.button-icon{
     margin-left: 16px;
 }
 /*#endregion footer*/
