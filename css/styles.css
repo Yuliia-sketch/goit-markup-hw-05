@@ -455,6 +455,7 @@ a{
 }
 .button-icon{
     margin-left: 16px;
+    fill: #FFFFFF;
 }
 /*#endregion footer*/
 .backdrop{
