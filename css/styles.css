@@ -424,13 +424,12 @@ a{
     height: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-}
-.form-mail{
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: FFFFFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
 }
 /*#endregion footer*/
 .backdrop{
